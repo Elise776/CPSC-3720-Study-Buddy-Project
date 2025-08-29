@@ -42,7 +42,7 @@ void runTests() {
     assert(t1.overlaps(t2));   // Should overlap
     assert(!t1.overlaps(t3));  // Different day, no overlap
 
-    cout << "✅ All tests passed!\n";
+    cout << "All tests passed!\n";
 }
 
 int main() {
